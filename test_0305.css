@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: grid; /* 設定為 Grid 容器 */
+  grid-template-columns: repeat(6, 1fr); 
+  grid-template-rows: repeat(9, 50px); 
+  gap: 10px; /* 設定間距 */
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  grid-column: span 6;
+  background-color: rgb(54, 59, 72);
+  gap: 10px; /* 設定間距 */
+}
+
+.item {
+  width: 100%;
+  border-radius: 10px;
+  margin: 5px;
+}
