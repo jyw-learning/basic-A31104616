@@ -1,31 +1,12 @@
-body{
-    background-color: rgb(237, 239, 241);
-    font-family: "Noto Sans TC", sans-serif;
-  }
-  
-.banner {
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 10px;
-    background-color: rgb(54, 59, 72);
-}
-  
-.banner_item{
-    padding: 10px;
-
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: bold;
+body {
+    background-color: #b2b1af;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .borderdiv {
     width: 350px;
     padding: 10px 10px;
-    margin: 50px auto;
+    margin: 20px auto;
     border: 10px solid rgb(63, 63, 67);
     background-color: rgb(177, 121, 36);
     border-radius: 20px;
@@ -33,10 +14,6 @@ body{
 
     text-align: center;
 }
-
-    .borderdiv:hover {
-        transform: scale(1.1);
-    }
 
 .nametitle {
     width: 90%;
@@ -52,7 +29,7 @@ body{
     color: white;
     text-align: left; 
 }
-    
+
 .pic {
     display: inline-block;
     border: 5px solid #504e4e;
@@ -60,11 +37,11 @@ body{
     box-shadow: #000 0 0 5px;
     margin: 5px 10px;
 }
-    
+
 .pic img {
     display: block;
-}
-    
+  }
+
 .content {
     width: 90%;
     height: 80px;
@@ -82,7 +59,7 @@ body{
     padding: 2px 5px;
     text-align: left;
 }
-    
+
 .content_text {
     line-height: 1.2;
     color: #000000;
