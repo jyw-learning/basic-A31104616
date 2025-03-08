@@ -1,8 +1,8 @@
 body{
     background-color: rgb(237, 239, 241);
     font-family: "Noto Sans TC", sans-serif;
-  }
-  
+}
+
 .banner {
     width: 100%;
 
@@ -13,13 +13,17 @@ body{
     border-radius: 10px;
     background-color: rgb(54, 59, 72);
 }
-  
+
 .banner_item{
     padding: 10px;
 
     color: #FFFFFF;
     font-size: 20px;
     font-weight: bold;
+}
+
+.link_text {
+    text-decoration: none; /* 移除超連結的底線 */
 }
 
 .borderdiv {
@@ -122,5 +126,6 @@ body{
 @media (max-width: 480px) {
     .home {
         background-color: rgba(255,255,255,0.6);
+        opacity: 80%;
     }
 }
