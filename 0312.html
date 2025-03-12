@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <title>互動式 JavaScript</title>
+  </head>
+  <body>
+    <button id="bgchange">切換背景顏色</button>
+    <script>
+      document
+        .querySelector("#bgchange")
+        .addEventListener("click", function () {
+          document.body.style.background = "#000000"
+        })
+    </script>
+  </body>
+</html>
